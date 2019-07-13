@@ -44,6 +44,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "644377079335-85tim16hgde30m5qcuj7ht21pj7t97q5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.wifistudypart2",
+            "certificate_hash": "86de0f3ea049df779cf2a3b0df3c86a28d619763"
+          }
+        },
+        {
           "client_id": "644377079335-t7gh797be8b4u4esmq29th9hadoo8afv.apps.googleusercontent.com",
           "client_type": 3
         }

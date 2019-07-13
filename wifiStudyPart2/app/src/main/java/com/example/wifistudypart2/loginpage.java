@@ -39,7 +39,18 @@ public class loginpage extends AppCompatActivity
         email = (EditText)findViewById(R.id.id1);
         password = (EditText)findViewById(R.id.id2);
         button = (Button)findViewById(R.id.button);
-        button.setOnClickListener(this) ;
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+
+                if (view == button)
+                {
+                    register();
+                }
+
+            }
+        }) ;
 
 
     }
@@ -71,13 +82,7 @@ public class loginpage extends AppCompatActivity
         });
     }
 
-    public void onClick(View view) {
-        if (view == button)
-        {
-            register();
-        }
 
-    }
 
 }
 
