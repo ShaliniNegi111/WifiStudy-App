@@ -1,9 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".CourceOption">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimary"
+        android:id="@+id/RL"
+        >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select the course"
+            android:textColor="@color/colorAccent"
+            android:textSize="23dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            />
+
+
+    </RelativeLayout>
+    
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:layout_below="@id/RL"
+        android:columnCount="2"
+        android:rowCount="3"
+        android:padding="14dp"
+
+        android:alignmentMode="alignMargins"
+
+        >
+
+    </GridLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
