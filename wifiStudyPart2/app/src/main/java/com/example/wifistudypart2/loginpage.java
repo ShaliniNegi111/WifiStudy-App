@@ -38,6 +38,10 @@ public class loginpage extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_loginpage);
+
+
+        /*Intent intent = new Intent(getApplicationContext() , CourceOption.class);
+        startActivity(intent);*/
         mAuth = FirebaseAuth.getInstance();
 
         progressDialog = new ProgressDialog(this);

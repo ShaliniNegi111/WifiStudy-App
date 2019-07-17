@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".LoginOption"
-    android:gravity = "center">
+    android:gravity="center"
+   >
 
 
     <Button
@@ -15,6 +16,7 @@
         android:textSize="32sp"
         android:textColor="@color/colorAccent"
         android:layout_centerHorizontal="true"
+        android:onClick="newActivity"
         android:id="@+id/google"/>
 
     <Button
@@ -23,15 +25,15 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/google"
         android:layout_centerHorizontal="true"
+
         android:text="Email/Mobile NO."
         android:textColor="@color/colorAccent"
-        android:textSize="32sp" />
+        android:textSize="32sp"
+        android:onClick="newActivity"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Need Help"
-
-
         android:textSize="32sp"
         android:textColor="@color/colorAccent"
         android:layout_below="@id/email"

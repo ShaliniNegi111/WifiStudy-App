@@ -4,43 +4,124 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".CourceOption">
+    android:background="@drawable/bg"
+    android:visibility="visible"
+    tools:context=".CourceOption"
+    tools:visibility="visible"
+    android:orientation="vertical"
+    >
 
 
     <RelativeLayout
+        android:id="@+id/RL"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:background="@color/colorPrimary"
-        android:id="@+id/RL"
-        >
+        android:background="@color/colorPrimary">
 
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
             android:text="Select the course"
             android:textColor="@color/colorAccent"
-            android:textSize="23dp"
-            android:layout_centerHorizontal="true"
-            android:layout_centerInParent="true"
-            />
-
+            android:textSize="23dp" />
 
     </RelativeLayout>
-    
-    <GridLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="8"
-        android:layout_below="@id/RL"
-        android:columnCount="2"
-        android:rowCount="3"
-        android:padding="14dp"
 
-        android:alignmentMode="alignMargins"
+   <GridLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:columnCount="2"
+       android:rowCount="3"
+       android:alignmentMode="alignMargins"
+       android:columnOrderPreserved="true"
+       android:paddingTop="16dp"
+       android:layout_weight="8dp"
+       >
+       <!---row 1 -->
 
-        >
 
-    </GridLayout>
+       <!-- col 1 -->
+       <androidx.cardview.widget.CardView
+
+           android:layout_width="0dp"
+           android:layout_height="0dp"
+           android:layout_columnWeight="1"
+           android:layout_rowWeight="1"
+           android:layout_marginTop="16dp"
+           android:layout_marginLeft="16dp"
+           android:layout_marginRight="16dp"
+           app:cardElevation="8dp"
+           app:cardCornerRadius="8dp"
+           android:layout_row="0"
+           android:layout_column="0">
+
+       </androidx.cardview.widget.CardView>
+
+       <!-- col 2 -->
+       <androidx.cardview.widget.CardView
+
+           android:layout_width="0dp"
+           android:layout_height="0dp"
+           android:layout_columnWeight="1"
+           android:layout_rowWeight="1"
+           android:layout_marginTop="16dp"
+           android:layout_marginLeft="16dp"
+           android:layout_marginRight="16dp"
+           app:cardElevation="8dp"
+           app:cardCornerRadius="8dp"
+           >
+
+       </androidx.cardview.widget.CardView>
+
+
+
+       <!---row 1 -->
+
+
+       <!-- col 1 -->
+       <androidx.cardview.widget.CardView
+
+           android:layout_width="0dp"
+           android:layout_height="0dp"
+           android:layout_columnWeight="1"
+           android:layout_rowWeight="1"
+           android:layout_marginTop="16dp"
+           android:layout_marginLeft="16dp"
+           android:layout_marginRight="16dp"
+           app:cardElevation="8dp"
+           app:cardCornerRadius="8dp"
+           android:layout_row="0"
+           android:layout_column="0">
+
+       </androidx.cardview.widget.CardView>
+
+       <!-- col 2 -->
+       <androidx.cardview.widget.CardView
+
+           android:layout_width="0dp"
+           android:layout_height="0dp"
+           android:layout_columnWeight="1"
+           android:layout_rowWeight="1"
+           android:layout_marginTop="16dp"
+           android:layout_marginLeft="16dp"
+           android:layout_marginRight="16dp"
+           app:cardElevation="8dp"
+           app:cardCornerRadius="8dp"
+           >
+
+       </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+
+   </GridLayout>
+
 
 </androidx.appcompat.widget.LinearLayoutCompat>
