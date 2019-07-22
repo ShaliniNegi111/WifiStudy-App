@@ -78,7 +78,7 @@
 
 
 
-       <!---row 1 -->
+       <!---row 2 -->
 
 
        <!-- col 1 -->
@@ -115,10 +115,41 @@
        </androidx.cardview.widget.CardView>
 
 
+       <!---row 3 -->
 
 
+       <!-- col 1 -->
+       <androidx.cardview.widget.CardView
 
+           android:layout_width="0dp"
+           android:layout_height="0dp"
+           android:layout_columnWeight="1"
+           android:layout_rowWeight="1"
+           android:layout_marginTop="16dp"
+           android:layout_marginLeft="16dp"
+           android:layout_marginRight="16dp"
+           app:cardElevation="8dp"
+           app:cardCornerRadius="8dp"
+           android:layout_row="0"
+           android:layout_column="0">
 
+       </androidx.cardview.widget.CardView>
+
+       <!-- col 2 -->
+       <androidx.cardview.widget.CardView
+
+           android:layout_width="0dp"
+           android:layout_height="0dp"
+           android:layout_columnWeight="1"
+           android:layout_rowWeight="1"
+           android:layout_marginTop="16dp"
+           android:layout_marginLeft="16dp"
+           android:layout_marginRight="16dp"
+           app:cardElevation="8dp"
+           app:cardCornerRadius="8dp"
+           >
+
+       </androidx.cardview.widget.CardView>
 
 
    </GridLayout>
