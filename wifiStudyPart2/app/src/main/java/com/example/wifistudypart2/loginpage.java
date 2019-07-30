@@ -42,7 +42,7 @@ public class loginpage extends AppCompatActivity
 
         /*Intent intent = new Intent(getApplicationContext() , CourceOption.class);
         startActivity(intent);*/
-        mAuth = FirebaseAuth.getInstance();
+       /* mAuth = FirebaseAuth.getInstance();
 
         progressDialog = new ProgressDialog(this);
         email = (EditText)findViewById(R.id.id1);
@@ -87,7 +87,7 @@ public class loginpage extends AppCompatActivity
 
                         }
                     }
-                });
+                });*/
     }
 
 

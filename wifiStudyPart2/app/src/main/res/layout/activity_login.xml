@@ -25,11 +25,11 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/google"
         android:layout_centerHorizontal="true"
-
+        android:onClick="newActivity"
         android:text="Email/Mobile NO."
         android:textColor="@color/colorAccent"
         android:textSize="32sp"
-        android:onClick="newActivity"/>
+      />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

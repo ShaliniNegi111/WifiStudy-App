@@ -38,7 +38,7 @@
        android:alignmentMode="alignMargins"
        android:columnOrderPreserved="true"
        android:paddingTop="16dp"
-       android:layout_weight="8dp"
+
        >
        <!---row 1 -->
 

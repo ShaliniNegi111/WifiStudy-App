@@ -19,18 +19,15 @@ public class ModelClass {
               this.text = text ;
     }
 
-    public int getimageresource()
-    {
-        return imageresource ;
+    public String getText() {
+        return text;
     }
 
-    public String  getTiltle()
-    {
-        return tiltle ;
+    public String getTiltle() {
+        return tiltle;
     }
 
-    public String  getText()
-    {
-        return text ;
+    public int getImageresource() {
+        return imageresource;
     }
 }

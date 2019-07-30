@@ -1,6 +1,7 @@
 package com.example.wifistudypart2;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -17,9 +18,11 @@ public class Login extends AppCompatActivity {
 
    public  void newActivity ( View view )
     {
-        Toast.makeText(getApplicationContext(),"shalini" , Toast.LENGTH_LONG);
-        Intent intent = new Intent(getApplicationContext(), loginpage.class) ;
-        startActivity(intent);
+        Toast.makeText(getApplicationContext(),"shalini" , Toast.LENGTH_LONG).show();
+
+     Intent intent = new Intent(getApplicationContext(), RecyclerView.class) ;
+     startActivity(intent);
+
     }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,16 +32,16 @@ public class Login extends AppCompatActivity {
 
         /*Intent intent = new Intent(getApplicationContext(), loginpage.class) ;
         startActivity(intent);*/
-        /*email = ( Button)findViewById(R.id.google) ;
+        email = ( Button)findViewById(R.id.email) ;
 
-        email.setOnClickListener(new View.OnClickListener() {
+        /*email.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
 
-                Toast.makeText(getApplicationContext(),"shalini" , Toast.LENGTH_LONG);
-                Intent intent = new Intent(getApplicationContext(), loginpage.class) ;
-                startActivity(intent);
+                Toast.makeText(getApplicationContext(),"shalini" , Toast.LENGTH_LONG).show();
+               // Intent intent = new Intent(getApplicationContext(), loginpage.class) ;
+                //startActivity(intent);
             }
         });*/
 
